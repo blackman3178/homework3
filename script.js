@@ -67,7 +67,6 @@ function generatePassword() {
   // made an empty passwordArray which i will use to concatinate with the other creatd arrays, based on the respnses form the user as to whcih characters to include.
   var passwordArray = [];
   var generatedPassword ="";
-  console.log("Hey i clicked the button");
   var lowerArray = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   var upperArray =[];
   for (var i = 0; i < lowerArray.length; i++) {
